@@ -2,4 +2,3 @@ $MCT_URL = "https://download.microsoft.com/download/4/c/c/4cc6c15c-75a5-4d1b-a3f
 $OutFile = "$($env:temp)\MediaCreationTool.exe"
 Invoke-WebRequest -Uri $MCT_URL -OutFile $OutFile
 & $OutFile /Eula Accept /Retail /MediaArch x64 /MediaLangCode en-US /MediaEdition Enterprise
-# Microsoft Enterprise KMS Key: NPPR9-FWDCX-D2C8J-H872K-2YT43
